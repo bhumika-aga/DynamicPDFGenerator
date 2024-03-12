@@ -21,6 +21,7 @@ The request body of the API call looks something like this:
 </p>
 
 This should generate a single-page PDF as below:
+
 <p align="center">
     <img src="Image/pdf.png" width="auto">
 </p>
@@ -36,5 +37,5 @@ Note
 POST Request - <http://localhost:8080/generate>
 
 <p align="center">
-    <img src="" width="auto">
+    <img src="Image/result.png" width="auto">
 </p>
