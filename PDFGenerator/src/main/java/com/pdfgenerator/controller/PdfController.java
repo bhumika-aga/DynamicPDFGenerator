@@ -26,7 +26,7 @@ public class PdfController {
 	private PdfGeneratorService service;
 
 	@PostMapping("/generate")
-	public ResponseEntity<?> generatePdf(@RequestBody Invoice invoice) throws Exception {
+	public ResponseEntity<byte[]> generatePdf(@RequestBody Invoice invoice) throws Exception {
 		if (invoice.equals(null) || invoice.getItems().equals(null)) {
 			throw new Exception("Invalid Request!");
 		}
